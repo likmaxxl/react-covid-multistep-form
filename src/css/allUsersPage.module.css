@@ -1,0 +1,155 @@
+.allPatientsTitle{
+  position: fixed;
+  width: 100%;
+  top:0;
+background: #F5F6F8;
+  z-index: 3;
+  font-family: "Roboto", sans-serif;
+    font-size: 32px;
+  padding:0 2px;
+  height:233px;
+}
+.allPatientsTitle h2{
+    color:#ffc522;
+  margin:0;
+  padding:36px 0 0 0;
+    text-align: center;
+}
+.formRel{
+  width:100%;
+
+  position: relative;
+}
+.form{
+  left:50%;
+  top:0;
+  transform: translate(-50%,0%);
+  position:fixed;
+  z-index: 9;
+  top:123px;
+width:96%;
+}
+.form span{
+  color:#917c5f;
+    font-size:21px;
+  position: absolute;
+  z-index: 2;
+  right: 24px;
+  top: 19px;
+}
+.form input{
+    font-family: "Roboto", sans-serif;
+  font-size: 16px;
+padding-right:52px;
+background: white;
+}
+.form input::placeholder{
+    font-size:14px;
+}
+
+.allPatientsData{
+  position: relative;
+  width: 100%;
+  top:243px;
+}
+
+
+.table{
+  font-family: "Roboto", sans-serif;
+  width:100%;
+  border-collapse: collapse;
+}
+.titleTable td{
+  color:#ffc522;
+  font-size: 20px;
+}
+.tableInfoBorder{
+  margin-bottom:10px;
+}
+.table td{
+  padding:10px;
+
+}
+.table:not(:first-child) td,
+.table:not(:second-child) td{
+  display: flex;
+  align-items: center;
+}
+ .tableInfoBorder td{
+  border:solid 2px #a3a3a3;
+  border-collapse: collapse;
+}
+.table td .bullet,
+.table td .check{
+  margin-right:4px;
+  font-size: 13px;
+  color:#6a6969;
+}
+.table td .check{
+display: inline-block;
+font-size: 16px;
+transform:rotateY(180deg);
+}
+.table:nth-of-type(1) td:nth-child(1){
+  text-transform: uppercase;
+}
+.table:nth-of-type(1) td:nth-child(2){
+  text-align: right;
+font-size: 15px;
+word-break: break-all;
+}
+.table:nth-of-type(1) td:nth-child(1){
+  font-weight: bold;
+}
+.table th{
+  text-align: left;
+padding:5px;
+background: #6a6969;
+color:white;
+}
+.noPatients{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    width:100%;
+    text-align: center;
+}
+/****************MEDIA QUERY**********************/
+@media screen and (min-width:576px){
+  .allPatientsTitle{
+    height:248px;
+  }
+.allPatientsData{
+width:540px;
+margin: 0 auto;
+
+}
+.backBtn{
+  padding-left:20px;
+}
+.form{
+  top:141px;
+  width:540px;
+  margin: 26px auto;
+}
+}
+@media screen and (min-width:768px){
+  .allPatientsTitle{
+    height:279px;
+  }
+  .allPatientsTitle h2{
+    font-size: 70px;
+    text-transform: uppercase;
+  }
+  .form{
+    top:165px;
+  width:630px;
+  }
+  .allPatientsData{
+  width:630px;
+  top:272px;
+  }
+}

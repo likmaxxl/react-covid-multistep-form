@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@500&display=swap');
+.container{
+    font-family: "Roboto", sans-serif;
+      background: white;
+      border-radius: 10px;
+padding:10px 0 0 0;
+}
+.loginHeader{
+
+  padding:0 20px;
+}
+.lottieLogin,
+.covidLogoInfo{
+  display: none;
+}
+
+.loginForm{
+  padding:0 10px;
+}
+.loginHead{
+  font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  font-size:42px;
+  letter-spacing:2px;
+  margin-top:60px;
+  line-height: 40px;
+  color:black;
+}
+.input{
+  background: #ebeced;
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  padding:13px !important;
+  margin:11px 0;
+  border:none !important;
+  font-size: 16px;
+}
+.input:focus{
+  border:none;
+  outline:none;
+}
+.loginError{
+  display: block;
+  color:red;
+  position: absolute;
+  padding:0;
+  margin:0;
+  font-size: 11px;
+  margin-top:-7px;
+}
+.btnWrap{
+  text-align: center;
+}
+
+.logInBtn {
+  appearance: none;
+  border-radius: 40em;
+  border-style: none;
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding:13px 0;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    width:100%;
+      margin-top:30px;
+}
+
+.logInBtn:hover {
+
+  transform: scale(1.04);
+}
+
+.logInBtn:active {
+  transform: scale(1.025);
+}
+
+
+
+
+.loginInstruction{
+  background: #ff464c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ff464c 0%, #ff416b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ff464c 0%,#ff416b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ff464c 0%,#ff416b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff464c', endColorstr='#ff416b',GradientType=0 ); /* IE6-9 */
+
+  margin-top:30px;
+    padding:20px 10px;
+color: white;
+}
+.info{
+  font-size: 16px;
+  font-family:;
+  padding:0;
+  margin:0;
+  padding-top:12px;
+
+}
+.instructionHead{
+    line-height: 31px;
+  text-align: center;
+  padding:0;
+  margin:0;
+  margin-bottom:10px;
+}
+
+
+
+/***********LOGIN MEDIA QUERY**************/
+
+@media (min-width:576px) {
+.container{
+  width:500px;
+  margin:20px auto;
+}
+.loginForm{
+  padding:0 51px;
+}
+.loginHead{
+  font-size: 46px;
+}
+.loginInstruction{
+  padding: 51px 41px;
+}
+.instructionHead{
+font-size: 32px;
+}
+}
+
+@media (min-width: 768px) {
+  .logInBtn {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+@media (min-width:992px){
+  .container{
+    display: flex;
+    width:930px;
+    padding:0;
+  }
+  .lottieLogin{
+    display: block;
+    width:181px;
+    margin:0 auto;
+  }
+  .formLogIn,
+  .loginInstruction{
+    width:50%;
+  }
+  .logInBtn{
+    margin-top:35px;
+  }
+  .loginInstruction{
+    margin:0;
+  }
+  .covidLogoInfo{
+margin:auto;
+    display: flex;
+    width:150px;
+    position: relative;
+    top: 30px;
+
+  }
+  .instructionHead{
+    font-size: 39px;
+    line-height: 37px;
+  }
+  .info{
+    font-size: 19px;
+  }
+}

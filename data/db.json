@@ -1,0 +1,257 @@
+{
+  "patients": [
+    {
+      "id": "3031365-43e7-ed46-43e4-02a383b403c6",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Europe/USA/China (Corona affected area)",
+        "Close contact with foreign people"
+      ],
+      "step3BodyTemperature": "Feverish ( 98.6°F - 102°F )",
+      "step4Sypmtoms": [
+        "Dry Cough"
+      ],
+      "step5AdditionalSymptons": [
+        "Diarrhoea",
+        "Rash on skin"
+      ],
+      "step6ObservationLast48h": "No change",
+      "step7": [
+        "Asthma",
+        "High Pressure"
+      ],
+      "step8UserData": [
+        "leonard ",
+        "9513671716",
+        "leonardphenderson@armyspy.com",
+        "31-40",
+        "4596 Denver Avenue Pomona, CA 91766",
+        "Male"
+      ]
+    },
+    {
+      "id": "a0a7887-866b-6a04-c1-885ec060fab",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with foreign people",
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "Normal temperature ( 96°F - 98.6°F )",
+      "step4Sypmtoms": [
+        "Tiredness",
+        "Shortness of breath or difficulty breathing",
+        "Sore throat"
+      ],
+      "step5AdditionalSymptons": [
+        "Loss of taste or smell",
+        "Diarrhoea",
+        "Rash on skin",
+        "Vomiting",
+        "Body aches"
+      ],
+      "step6ObservationLast48h": "Bad from before",
+      "step7": [
+        "Asthma",
+        "Diabetes",
+        "High Pressure",
+        "Heart disease"
+      ],
+      "step8UserData": [
+        "rosalind ",
+        "5185311895",
+        "rosalinddtracey@rhyta.com",
+        "41-50",
+        "789 Oak Drive Albany, NY 12210",
+        "Female"
+      ]
+    },
+    {
+      "id": "524080e-2b3-30ff-02a-ae8eaeccfa36",
+      "step1CloseContactWithConfirmedCase": "No I don't",
+      "step2Last14DayTravel": [
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "High temperature ( 102°F + )",
+      "step4Sypmtoms": [
+        "Headache",
+        "Runny nose"
+      ],
+      "step5AdditionalSymptons": [
+        "Loss of taste or smell",
+        "Body aches"
+      ],
+      "step6ObservationLast48h": "I can’t feel",
+      "step7": [
+        "No, I don’t have"
+      ],
+      "step8UserData": [
+        "dan c",
+        "903345205",
+        "dancvillanueva@dayrep.com",
+        "11-20",
+        "413 Pickens Way Roane, TX 75110",
+        "Male"
+      ]
+    },
+    {
+      "id": "5c5e262-36b-1a38-4058-a56bdaaf42f1",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with foreign people",
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "Feverish ( 98.6°F - 102°F )",
+      "step4Sypmtoms": [
+        "Dry Cough",
+        "Shortness of breath or difficulty breathing",
+        "Headache"
+      ],
+      "step5AdditionalSymptons": [
+        "No, I don’t have"
+      ],
+      "step6ObservationLast48h": "No change",
+      "step7": [
+        "High Pressure",
+        "Heart disease"
+      ],
+      "step8UserData": [
+        "larry l",
+        "5592257942",
+        "larrylhoffman@jourrapide.com",
+        "50-Above",
+        "1382 Edgewood Avenue Fresno, CA 93704",
+        "Male"
+      ]
+    },
+    {
+      "id": "e2b1b15-d3aa-ebbb-acb1-aeec32b82ea",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with foreign people"
+      ],
+      "step3BodyTemperature": "Feverish ( 98.6°F - 102°F )",
+      "step4Sypmtoms": [
+        "Shortness of breath or difficulty breathing",
+        "Headache"
+      ],
+      "step5AdditionalSymptons": [
+        "Rash on skin",
+        "Vomiting"
+      ],
+      "step6ObservationLast48h": "No change",
+      "step7": [
+        "Asthma",
+        "Diabetes",
+        "High Pressure",
+        "Heart disease",
+        "Kidney disease"
+      ],
+      "step8UserData": [
+        "mark m",
+        "2138638089",
+        "markmamos@dayrep.com",
+        "0-10",
+        "2375 Aviation Way Los Angeles, CA 90017",
+        "Male"
+      ]
+    },
+    {
+      "id": "37b1c18-f4d6-bcb0-f532-8d2eafc3cd41",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with foreign people",
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "High temperature ( 102°F + )",
+      "step4Sypmtoms": [
+        "Shortness of breath or difficulty breathing",
+        "Headache",
+        "Sore throat"
+      ],
+      "step5AdditionalSymptons": [
+        "Rash on skin",
+        "Body aches"
+      ],
+      "step6ObservationLast48h": "Bad from before",
+      "step7": [
+        "High Pressure",
+        "Kidney disease"
+      ],
+      "step8UserData": [
+        "genevieve c",
+        "3375773296",
+        "genevievecfitzgerald@rhyta.com",
+        "21-30",
+        "1766 Sarah Drive Lafayette, LA 70506",
+        "Female"
+      ]
+    },
+    {
+      "id": "62c4a20-b26c-13a7-3a0a-70cd1b510",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "I don’t know",
+      "step4Sypmtoms": [
+        "Dry Cough",
+        "Shortness of breath or difficulty breathing",
+        "Sore throat"
+      ],
+      "step5AdditionalSymptons": [
+        "Diarrhoea",
+        "Rash on skin"
+      ],
+      "step6ObservationLast48h": "No change",
+      "step7": [
+        "High Pressure",
+        "Heart disease",
+        "Kidney disease"
+      ],
+      "step8UserData": [
+        "dolores",
+        "7819956382",
+        "doloresscopland@rhyta.com",
+        "31-40",
+        "1738 Hummingbird Way Cambridge, MA 02141",
+        "Female"
+      ]
+    },
+    {
+      "id": "c30d84d-5ed1-1144-70f1-e3556d1558b4",
+      "step1CloseContactWithConfirmedCase": "No I don't",
+      "step2Last14DayTravel": [
+        "Europe/USA/China (Corona affected area)"
+      ],
+      "step3BodyTemperature": "Normal temperature ( 96°F - 98.6°F )",
+      "step4Sypmtoms": [
+        "Dry Cough",
+        "Tiredness",
+        "Shortness of breath or difficulty breathing",
+        "Headache",
+        "Sore throat",
+        "Runny nose"
+      ],
+      "step5AdditionalSymptons": [
+        "Loss of taste or smell",
+        "Diarrhoea",
+        "Rash on skin",
+        "Vomiting"
+      ],
+      "step6ObservationLast48h": "Better from before",
+      "step7": [
+        "Diabetes",
+        "High Pressure",
+        "Kidney disease"
+      ],
+      "step8UserData": [
+        "peter ",
+        "6192255917",
+        "peterljohnson@armyspy.com",
+        "41-50",
+        "4487 Holden Street San Diego, CA 92107",
+        "Male"
+      ]
+    }
+  ]
+}

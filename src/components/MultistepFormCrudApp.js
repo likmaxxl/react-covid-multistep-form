@@ -272,7 +272,7 @@ if(covidFormValues.steps===8){
       }
       setDataForJson(allValuesForDb)
 
-axios.post('http://localhost:8000/patients',allValuesForDb)//add users data to dataBase
+axios.post('https://react-covid-multistep-form.herokuapp.com/patients',allValuesForDb)//add users data to dataBase
 .then((resp)=>{console.log(resp)})
      navigate('/submitSuccess');
 

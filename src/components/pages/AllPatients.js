@@ -23,7 +23,7 @@ setPatient(value.toLowerCase())
 
 useEffect(()=>{
 setLoading(true)
-  axios.get('https://react-covid-multistep-form.herokuapp.com/patients')
+  axios.get('http://localhost:8000/patients')
   .then((res)=>{
     setAllPatients(res.data)
     setFilteredPatients(res.data)

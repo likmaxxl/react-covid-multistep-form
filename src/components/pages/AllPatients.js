@@ -23,7 +23,9 @@ setPatient(value.toLowerCase())
 
 useEffect(()=>{
 setLoading(true)
-  axios.get('http://localhost:8000/patients')
+const devEnv=process.env.NODE_ENV !== "production"
+const {REACT_APP_DEV_URL,REACT_APP_PROD_URL}=process.env
+  axios.get(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
   .then((res)=>{
     setAllPatients(res.data)
     setFilteredPatients(res.data)

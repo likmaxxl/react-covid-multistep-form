@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 body{
     background: #F5F6F8;
-
+/* width: 100%;*/
+overflow-x: hidden;
 }
-
+.homeFormAndLottie{
+  position: relative;
+  width:100%;
+}
 .linkToLoginPage{
   text-align: center;
 background: #706d6d;
@@ -80,7 +84,6 @@ color:#ffab23;
   box-sizing: border-box;
   width:92%;
   left: 50%;
-  top:220px;
   transform: translate(-50%, 0);
   position: absolute;
   padding: 30px 10px 40px 10px;
@@ -160,6 +163,7 @@ form .formBox {
   margin: 20px 0;
 }
 form .formBox input {
+  visibility: hidden;
   position: relative;
   left: 20px;
   font-size: 15px;
@@ -418,7 +422,7 @@ option:hover {
   .multiStepCovidForm{
     width:540px;
   min-height:694px;
-  top:276px;
+  /* top:276px; */
       padding: 37px 40px 40px 40px;
   }
   form .formBox label{
@@ -522,8 +526,27 @@ transform: translate(-50%,0);
     width:45%;
 }
 }
+/********************LOTTIE HOMEPAGE*********************/
+.lottieHomeAn{
+  display: none;
 
+}
 
+@media screen and (min-width:1200px){
+  .lotteHomepageAnim{
+position: absolute;
+    height:100%;
+    width:100%;
+  }
+  .lottieHomeAn{
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 15%;
+    transform: translate(-50%,-5px);
+  }
+
+}
 /******************FAQU PAGE ALL PATIENTS****************/
 .styles_row-title__1YiiY{
   display: block !important;

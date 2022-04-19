@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 import PropTypes from 'prop-types'
 import uuid from 'react-uuid'
 import axios from 'axios'
-
+import leftAnimLottie from '../lottie/47383-doctor-welcoming-pacient.json'
+import Lottie from "lottie-react";
 import {Link,useNavigate } from 'react-router-dom'
 import FormStep1 from './FormStep1'
 import FormStep2 from './FormStep2'
@@ -289,6 +290,9 @@ axios.post('http://localhost:8000/patients',allValuesForDb)//add users data to d
   return (
   <>
 
+
+
+
   <div className="linkToLoginPage">
     <span><i class="fa-solid fa-hand-pointer"></i></span>
     <Link className="adminPageLinkBtn" to="/logIn">
@@ -296,7 +300,17 @@ axios.post('http://localhost:8000/patients',allValuesForDb)//add users data to d
   </Link>
   <p>Click the button above to see all registered patients.</p>
   </div>
+<div className="homeFormAndLottie">
+  <div className="lotteHomepageAnim">
+    <div className="lottieHomeAn">
+        <Lottie  style={{
+             width: 1000,
+             height: 1000,
+         }}
+         animationData={leftAnimLottie} loop={true} autoPlay={true}/>
+    </div>
 
+  </div>
   <h1 className="titleCovid">Covid-19 Risk Test</h1>
   <div className="multiStepCovidForm">
 
@@ -382,6 +396,7 @@ axios.post('http://localhost:8000/patients',allValuesForDb)//add users data to d
   <button onClick={step1Click} className="nextSubmitBtn" style={{bottom:errorMsg&&"8px"}}>Next</button>
 </div>
     </form>
+    </div>
     </div>
   </>
   )

@@ -3,6 +3,7 @@ import MultistepFormCrudApp from './components/MultistepFormCrudApp'
 import SubmitedPage from './components/SubmitedPage'
 import AllPatients from './components/pages/AllPatients'
 import LoginPage from './components/pages/LogInPage'
+
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import {LogInContext} from './loginContext/LoginContext'
 import { useLocation } from 'react-router-dom';
@@ -24,7 +25,7 @@ useEffect(() => {
 },[location])
 
   return (
-
+<>
     <div className="CrudFormApp">
 
         <Routes>
@@ -37,8 +38,10 @@ useEffect(() => {
 
         <Route path="/logIn" element={<LoginPage/>}/>
        </Routes>
+
       </div>
 
+</>
   )
 }
 

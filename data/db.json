@@ -252,6 +252,37 @@
         "4487 Holden Street San Diego, CA 92107",
         "Male"
       ]
+    },
+    {
+      "id": "4ab635f-0bef-08e6-0853-0f21f55b7dbc",
+      "step1CloseContactWithConfirmedCase": "Yes, I am",
+      "step2Last14DayTravel": [
+        "Close contact with corona symptoms man"
+      ],
+      "step3BodyTemperature": "I don’t know",
+      "step4Sypmtoms": [
+        "Dry Cough",
+        "Tiredness",
+        "No, I don’t"
+      ],
+      "step5AdditionalSymptons": [
+        "Rash on skin",
+        "Body aches"
+      ],
+      "step6ObservationLast48h": "No change",
+      "step7": [
+        "High Pressure",
+        "Heart disease",
+        "Kidney disease"
+      ],
+      "step8UserData": [
+        "tonia r. sullivan",
+        "4858965233",
+        "toniaullivan@dayrep.com",
+        "21-30",
+        "3300 Flynn Street North Olmsted, OH 44070",
+        "Female"
+      ]
     }
   ]
 }

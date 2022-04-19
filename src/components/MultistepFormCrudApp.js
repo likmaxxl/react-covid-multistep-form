@@ -271,9 +271,8 @@ if(covidFormValues.steps===8){
       ]
       }
       setDataForJson(allValuesForDb)
-const devEnv=process.env.NODE_ENV !== "production"
-const {REACT_APP_DEV_URL,REACT_APP_PROD_URL}=process.env
-axios.post(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`,allValuesForDb)//add users data to dataBase
+
+axios.post('http://localhost:8000/patients',allValuesForDb)//add users data to dataBase
 .then((resp)=>{console.log(resp)})
      navigate('/submitSuccess');
 

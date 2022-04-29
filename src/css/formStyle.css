@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+body{
+    background: #F5F6F8;
+/* width: 100%;*/
+overflow-x: hidden;
+}
+.homeFormAndLottie{
+  position: relative;
+  width:100%;
+}
+.linkToLoginPage{
+  text-align: center;
+background: #706d6d;
+  padding:20px 0;
+  border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+.linkToLoginPage span{
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 18px;
+margin-right:10px;
+animation:cursorAnim linear 2s infinite;
+position: relative;
+color:#ffab23;
+
+}
+@keyframes cursorAnim {
+  0%{
+    transform:translate(-5px) rotate(90deg);
+  }
+  50%{
+  transform:translate(0) rotate(90deg);
+  }
+  100%{
+  transform:translate(-5px) rotate(90deg);
+  }
+}
+.adminPageLinkBtn {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.adminPageLinkBtn:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.adminPageLinkBtn:active {
+	position:relative;
+	top:1px;
+}
+.linkToLoginPage p{
+  color:white;
+  font-size: 14px;
+      font-family:sans-serif;
+  margin:0;
+  padding:0;
+  padding-top:15px;
+}
+.titleCovid{
+    font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color:#ffb700;
+  font-size: 31px;
+  margin-top:44px;
+}
+.multiStepCovidForm {
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 30px 30px 0px rgb(0 0 0 / 5%);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  width:92%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  padding: 30px 10px 40px 10px;
+
+}
+
+.prevBtnAndStatus {
+  display: flex;
+  position: relative;
+}
+.previousStepBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 19px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #546274;
+  text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.previousStepBtn span {
+  position: relative;
+  left: 0;
+  transition: all 0.3s;
+  padding-right: 3px;
+}
+.previousStepBtn:hover span {
+  transition: all 0.3s;
+  left: -3px;
+}
+.currentstatus {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  background: linear-gradient(180deg, #ffebc9 0%, #f59f1b 100%);
+  color: white;
+}
+.multiStepCovidFormQuestion {
+  text-align: center;
+  margin-top: 73px;
+  font-weight: 500;
+  font-size: 23px;
+  color: #1c2437;
+}
+.multiStepCovidFormQuestion p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+}
+.multiStepCovidFormQuestion p:nth-of-type(2) {
+  color: #546274;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 30px;
+}
+form .formBox {
+  color: #6c6459;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+
+  margin: 20px 0;
+}
+form .formBox input {
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+  color: #6c6459;
+  font-weight: 700;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  visibility: hidden;
+}
+form .formBox label {
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 20px 2px;
+  display: flex;
+  align-items: center;
+  border: solid 1px green;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.alertBackground {
+  background: rgba(150, 150, 150, 0.1);
+  border: 2px solid #f5c6cb !important;
+  background: url("") no-repeat right;
+  background-position-x: 90%;
+  background-position-y: 19px;
+}
+form .formBox label:hover {
+  transition: all 0.3s;
+  background: rgba(150, 150, 150, 0.1);
+}
+form .formBox label span {
+  line-height: 23px;
+  padding: 0 10px;
+  display: block;
+}
+form .formBox label span:nth-of-type(1) {
+  margin-left: 44px;
+}
+.check-container {
+  display: block;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2rem;
+  user-select: none;
+
+  font-size: 1.6rem;
+}
+.checkmark {
+  position: absolute;
+  top: 50.5%;
+  left: 17px;
+  transform: translate(0, -50%);
+  width: 23px;
+  height: 23px;
+  padding: 0 !important;
+  border: 1px solid #9297c7;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+}
+input:checked ~ .checkmark,
+input:checked ~ .checkmarkRadio {
+  background: linear-gradient(180deg, #ffdd2d 0%, #ffab2d 100%);
+  border: 0;
+}
+input:checked ~ .checkmark::after,
+input:checked ~ .checkmarkRadio::after {
+  display: block;
+}
+.checkmark::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.8rem;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  border-radius: 0.3rem;
+  transform: rotate(45deg);
+  display: none;
+  position: absolute;
+  top: 0.15rem;
+  left: 0.46rem;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 0;
+  height: 0;
+  margin: -1px;
+}
+.checkmarkRadio {
+  position: absolute;
+  top: 50.5%;
+  left: 17px;
+  transform: translate(0, -50%);
+  width: 23px;
+  height: 23px;
+  padding: 0 !important;
+  border: 1px solid #9297c7;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+}
+.checkmarkRadio::after {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border: solid #fff;
+  /* border-width: 0 3px 3px 0; */
+  border-radius: 50%;
+  transform: rotate(45deg);
+  display: none;
+  position: absolute;
+  top: 4.9px;
+  left: 5px;
+}
+.nextSubmitBtn {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #1e85ff;
+  width:100%;
+  border-radius: 30px;
+  height: 60px;
+  border: 0;
+  text-align: center;
+  margin-top: 30px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  line-height: 60px;
+  background: linear-gradient(180deg, #edd86c 0%, #ffab2d 100%);
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+.nextSubmitBtn:hover {
+  transition: all 0.3s;
+  background: linear-gradient(180deg, #ffdd2d 0%, #ffab2d 100%);
+}
+input {
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  transition: all 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  position: relative;
+  left: 0 !important;
+  padding: 20px 20px;
+    color: #917c5f;
+  border: 1px solid #ced4da;
+}
+::placeholder {
+  color: #6c6459;
+  font-weight: 700;
+  font-size: 15px;
+}
+input[type="text"]:focus-visible,
+input[type="number"]:focus-visible,
+input[type="email"]:focus-visible {
+  color: #6c6459;
+  outline: none;
+  border: solid #ffab2d 1px;
+}
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover,
+select:hover {
+  transition: all 0.3s;
+  background: rgba(150, 150, 150, 0.1);
+}
+
+select:hover {
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
+    no-repeat right rgba(150, 150, 150, 0.1);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 19px;
+}
+select:focus {
+  outline: none;
+  border: solid #ffab2d 1px;
+}
+select {
+  color: #6c6459;
+  font-weight: 700;
+  font-size: 15px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  position: relative;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
+    no-repeat right;
+
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 19px;
+}
+select option {
+  font-weight: 700;
+  font-size: 15px;
+}
+option:hover {
+  background: #ffab2d;
+  box-shadow: 0 0 10px 100px #1882a8 inset;
+}
+.fontSizeStep8 {
+  font-size: 20px;
+}
+.alertMessageStep8{
+  background: #F8D7DA;
+  display: inline-block;
+  padding:10px !important;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #721c24;
+}
+.alertMessageStep8 span i{
+  padding-right:10px;
+    font-size: 18px;
+}
+/**********FORM MEDIA QUERY**********/
+@media screen and (min-width:576px){
+
+  .linkToLoginPage{
+    width:540px;
+    margin:0 auto;
+  }
+  .titleCovid{
+    font-size: 56px;
+    margin-top:78px;
+  }
+  .formRow{
+    display: flex;
+  }
+  .formRow+ .formBox{
+        margin:10px 0;
+  }
+    .formRow .formBox{
+    margin:10px 0;
+    }
+    .formRow .formBox:nth-of-type(1){
+      margin-right:20px;
+
+    }
+    .formRow .formBox:nth-of-type(2){
+      margin-left:20px;
+    }
+.currentstatus{
+  width:80px;
+  height:80px;
+  font-size: 31px;
+}
+.multiStepCovidFormQuestion{
+  margin-top:107px;
+}
+  .multiStepCovidForm{
+    width:540px;
+  min-height:694px;
+  /* top:276px; */
+      padding: 37px 40px 40px 40px;
+  }
+  form .formBox label{
+    padding:14px 2px;
+  }
+  .checkmark,
+  .checkmarkRadio{
+    width:20px;
+    height: 20px;
+
+  }
+  .checkmark::after{
+    width:0.3rem;
+    height:0.7rem;
+    left:0.4rem;
+  }
+  .checkmarkRadio::after{
+    top: 3.9px;
+    left: 4px;
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+  .nextSubmitBtn{
+    width:87%;
+    position: absolute;
+    bottom:25px;
+  }
+}
+
+
+/*********************SUBMITED PAGE***********************/
+#submitedPage{
+  border-radius: 10px;
+    box-shadow: 0px 30px 30px 0px rgb(0 0 0 / 5%);
+  box-sizing: border-box;
+  padding:0 20px;
+  background: white;
+  width: 92%;
+  height:500px;
+
+    position: absolute;
+    top:40px;
+    left:50%;
+    transform:translate(-50%,0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#submitedPage .lottieCheck{
+width:313px;
+position: relative;
+top:-91px;
+}
+#submitedPage .submitcontent{
+position: relative;
+top:-157px;
+  text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+#submitedPage .submitcontent a{
+  text-decoration: none;
+}
+#submitedPage .submitcontent h3{
+  font-size:25px;
+  padding:0;
+  margin:0;
+  color: #FFB700;
+}
+#submitedPage .submitcontent p{
+        color: #FFB700;
+}
+#submitedPage .nextSubmitBtn{
+  position: absolute;
+  display: block;
+left:50%;
+transform: translate(-50%,0);
+  width:80%;
+  bottom:-142px;
+}
+.submitBtnStep8{
+  width:100%;
+  display: block;
+  text-decoration: none;
+  color:white;
+}
+/*********SUBMIT PAGE MEDIA QUERY************/
+@media screen and (min-width:576px){
+  #submitedPage{
+    width:540px;
+  }
+}
+@media screen and (min-width:768px){
+#submitedPage .submitcontent h3{
+  font-size: 31px;
+}
+#submitedPage .submitcontent p{
+  font-size:19px;
+}
+#submitedPage .nextSubmitBtn{
+    width:45%;
+}
+}
+/********************LOTTIE HOMEPAGE*********************/
+.lottieHomeAn{
+  display: none;
+
+}
+
+@media screen and (min-width:1200px){
+  .lotteHomepageAnim{
+position: absolute;
+    height:100%;
+    width:100%;
+  }
+  .lottieHomeAn{
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 15%;
+    transform: translate(-50%,-5px);
+  }
+
+}
+/******************FAQU PAGE ALL PATIENTS****************/
+.styles_row-title__1YiiY{
+  display: block !important;
+}
+.styles_icon-wrapper__2cftw{
+  top:2px !important;
+}
+@media screen and (min-width:576px){
+  .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
+    padding: 5px 15px !important;
+  }
+  .styles_icon-wrapper__2cftw{
+    top:22px !important;
+  }
+}

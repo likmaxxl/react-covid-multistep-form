@@ -13,7 +13,6 @@ const LoginPage = (props) => {
       localStorage.setItem("allPatients", false);
     },[])
   const value=useContext(LogInContext)
-  // console.log(value)
 const [errUsername,setErrUsername]=useState()
 const [errPassword,setErrPassword]=useState()
 
